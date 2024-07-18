@@ -1,4 +1,25 @@
 # -log-CH-log-
+Machine translation into English
+
+0.3.8
+Absolute mountain code
+I just did some minor optimizations and created it independently.
+Function introduction:
+  CH_log_close() :: Close the log file
+  CH_log_info() :: Creates a file "info.txt" output information
+  CH_log_auto_set() :: The default setting of the output path of the log file is "log.txt"
+  CH_log_next_line_have_to_is() :: Sets the status of the word wrap to be forced
+  CH_change_next_line() :: Like some light switches, press once to switch the state, used to toggle the switch for line wrapping
+  CH_log_partion() :: The most wasteful function just writes two blank lines to the log
+  Main functions:
+  CH_log_build_time() :: Gets and writes to the file time
+  CH_log_ubuild_time() :: Same as above, except that the file pointer is provided by the user
+  CH_log_afbuild() :: Write custom information and wrap lines
+  CH_log_afuse() :: A user-provided file pointer writes custom information and wraps lines
+  CH_log_afbuild() :: Write custom information
+  CH_log_afuse() :: Write custom information to the user-provided file pointer
+To be continued
+
 0.3.8
 绝对的屎山代码
 我只是做了一些微量的优化, 独立创作。
@@ -16,4 +37,4 @@
   CH_log_afuse() :: 向用户提供的文件指针写入自定义信息并自动换行
   CH_log_afbuild() :: 写入自定义信息
   CH_log_afuse() :: 向用户提供的文件指针写入自定义信息
-  未完待续
+未完待续
