@@ -2,7 +2,7 @@
 Machine translation into English
 
 0.3.8
-Absolute mountain code
+Absolute shit mountain code ( Stinky and long )
 I just did some minor optimizations and created it independently.
 Function introduction:
   CH_log_close() :: Close the log file
